@@ -80,7 +80,7 @@ public class ActivityFragment extends Fragment {
                     activityAdapter = new ActivityAdapter(activityEntityArrayList, getActivity(), firebaseFirestore);
                     recyclerView_activity.setAdapter(activityAdapter);
                 } else {
-                    //
+                    ///
                 }
             }
         });
